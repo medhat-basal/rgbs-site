@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBB To Hix colors [site]</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mother">
+        <center>
+            <img src="pic.jpg" width="399">
+            <br><br>
+            <div id="dd">
+
+            </div>
+        </center>
+    </div>
+    <br><br>
+    <div id="container">
+        <table>
+            <tr>
+                <th>[Red]</th>
+                <th>[Green]</th>
+                <th>[Blue]</th>
+            </tr>
+            <tr>
+                <td><input type="range" id="r" min="0" max="255" step="1" value="255" onchange="changeRange();"></td>
+                <td><input type="range" id="g" min="0" max="255" step="1" value="255" onchange="changeRange();"></td>
+                <td><input type="range" id="b" min="0" max="255" step="1" value="255" onchange="changeRange();"></td>
+            </tr>
+            <tr>
+                <td id="r-label">255</td>
+                <td id="g-label">255</td>
+                <td id="b-label">255</td>
+            </tr>
+        </table>
+        <h2 id="hex-label">#ffffff</h2>
+        <br>
+        <p id="p">Eng.Medhat Basal</p>
+    </div>
+
+
+
+
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
